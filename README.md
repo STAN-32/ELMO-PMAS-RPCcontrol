@@ -28,6 +28,5 @@ Gateway
 ```
 
 # Development
-This project is completed by THU-IRM-LAB. 
 
 Any question about connection problem can be raised by contacting me.
