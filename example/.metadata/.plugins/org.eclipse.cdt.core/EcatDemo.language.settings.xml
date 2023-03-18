@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="com.elmomc.project.CppAdvPlatinumDebugConfiguration.2083436927" name="PLATINUM_D">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="com.elmomc.platinum.build.cross"/>
+		</extension>
+	</configuration>
+	<configuration id="com.elmomc.project.CppPlatinumAdvReleaseConfiguration.278885817" name="PLATINUM_R">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="com.elmomc.platinum.build.cross"/>
+		</extension>
+	</configuration>
+</project>

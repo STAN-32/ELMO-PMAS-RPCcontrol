@@ -1,0 +1,12 @@
+11:24:35 **** Rebuild of configuration PLATINUM_D for project EcatDemo ****
+Info: Internal Builder is used for build
+"C:\\MaestroDeveloperStudio\\ElmoUtils\\scripts\\cleanPreviousArtifacts.bat" EcatDemo C:/MaestroDeveloperStudio/Maestro/GMASSamples/CPP_EthercatCyclicPosHome/EcatDemo 
+arm-linux-gnueabihf-g++.exe -D_PLATINUM "-IC:\\MaestroDeveloperStudio\\\\crosstool\\gcc-linaro-arm-linux-gnu\\arm-linux-gnueabihf\\libc\\usr\\include" "-IC:\\MaestroDeveloperStudio\\\\crosstool\\gcc-linaro-arm-linux-gnu\\arm-linux-gnueabihf\\include\\c++\\4.7.3" "-IC:\\MaestroDeveloperStudio\\\\Maestro\\includes" "-IC:\\MaestroDeveloperStudio\\\\Maestro\\includes\\cpp" -I../ "-IC:\\MaestroDeveloperStudio\\\\cygwin\\tmp" "-IC:\\MaestroDeveloperStudio\\\\Maestro\\includes\\embl" -O0 -Wall -c -fmessage-length=0 -mfpu=vfpv4 -mfloat-abi=hard -mtune=cortex-a15 -std=c++11 -g -o CPP_CyclicPosHome.o "..\\CPP_CyclicPosHome.cpp" 
+Cannot run program "arm-linux-gnueabihf-g++.exe": Launching failed
+
+Error: Program "arm-linux-gnueabihf-g++.exe" not found in PATH
+PATH=[C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\MySoftware\MyMatlab\runtime\win64;D:\MySoftware\MyMatlab\bin;D:\MySoftware\MyBandZip\Bandizip\;D:\MySoftware\MyAdams\bin;C:\Users\111\AppData\Local\Microsoft\WindowsApps]
+
+
+11:24:35 Build Finished. 0 errors, 0 warnings. (took 130ms)
+

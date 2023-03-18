@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.elmomc.project.CppDebugConfiguration.1876877876">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.elmomc.project.CppDebugConfiguration.1876877876" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="gexe" artifactName="${ProjName}" buildProperties="" cleanCommand="rm -rf" description="Debug" id="com.elmomc.project.CppDebugConfiguration.1876877876" name="Debug" parent="com.elmomc.project.CppDebugConfiguration" postbuildStep="c:/eclipse/Elmo/scripts/generateLaunchConfiguration.bat &quot;${ProjName}&quot; &quot;${ProjDirPath}&quot; ${ConfigName}&quot;" prebuildStep="c:/eclipse/Elmo/scripts/cleanPreviousArtifacts.bat &quot;${ProjName}&quot;">
+					<folderInfo id="com.elmomc.project.CppDebugConfiguration.1876877876." name="/" resourcePath="">
+						<toolChain id="com.elmomc.project.CppElmoToolchainDebug.68910952" name="GMAS C++ toolchain" superClass="com.elmomc.project.CppElmoToolchainDebug">
+							<targetPlatform id="com.elmomc.project.CppDebugConfiguration.1876877876..1784612497" name=""/>
+							<builder buildPath="${workspace_loc:/CPP_Template/Debug}" id="com.elmomc.project.CppBuilder.1412860232" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU Make" superClass="com.elmomc.project.CppBuilder"/>
+							<tool id="com.elmomc.project.CppCompilerExtended.1496202013" name="GMAS PowerPC C++ Compiler" superClass="com.elmomc.project.CppCompilerExtended">
+								<option id="com.elmomc.project.CppIncludesOption.920032870" name="Include paths (-I)" superClass="com.elmomc.project.CppIncludesOption" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\opt\crosstool\gcc-4.1.0-glibc-2.3.6\powerpc-603e-linux-gnu\powerpc-603e-linux-gnu\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\opt\crosstool\gcc-4.1.0-glibc-2.3.6\powerpc-603e-linux-gnu\include\c++\4.1.0\backward&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\opt\crosstool\gcc-4.1.0-glibc-2.3.6\powerpc-603e-linux-gnu\include\c++\4.1.0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../includes/CPP&quot;"/>
+									<listOptionValue builtIn="false" value="../"/>
+								</option>
+								<option id="com.elmomc.project.CppMiscellaneousOptions.1493603256" name="Other flags" superClass="com.elmomc.project.CppMiscellaneousOptions" value="-c -fmessage-length=0 " valueType="string"/>
+								<option id="com.elmomc.project.CppOptimizationLevel.30724315" name="Optimization Level" superClass="com.elmomc.project.CppOptimizationLevel" value="com.elmomc.project.CppEnumeratedOptimizationNone" valueType="enumerated"/>
+								<inputType id="com.elmomc.project.CppSource.288376877" name="C source files" superClass="com.elmomc.project.CppSource"/>
+							</tool>
+							<tool id="com.elmomc.project.CppLinker.94312226" name="GMAS PowerPC C++ linker" superClass="com.elmomc.project.CppLinker">
+								<option id="com.elmomc.project.CppLinkedLibrariesOption.311122489" name="Libraries (-l)" superClass="com.elmomc.project.CppLinkedLibrariesOption" valueType="stringList">
+									<listOptionValue builtIn="false" value="MMC_APP_LIB"/>
+									<listOptionValue builtIn="false" value="MMCPPLIB"/>
+									<listOptionValue builtIn="false" value="pthread"/>
+									<listOptionValue builtIn="false" value="rt"/>
+								</option>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="scannerConfiguration">
+				<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="makefileGenerator">
+						<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+		</cconfiguration>
+		<cconfiguration id="com.elmomc.project.CppReleaseConfiguration.1505033925">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.elmomc.project.CppReleaseConfiguration.1505033925" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="gexe" artifactName="${ProjName}" buildProperties="" cleanCommand="rm -rf" description="Release" id="com.elmomc.project.CppReleaseConfiguration.1505033925" name="Release" parent="com.elmomc.project.CppReleaseConfiguration" postbuildStep="c:/eclipse/Elmo/scripts/generateLaunchConfiguration.bat &quot;${ProjName}&quot; &quot;${ProjDirPath}&quot; ${ConfigName}&quot;" prebuildStep="c:/eclipse/Elmo/scripts/cleanPreviousArtifacts.bat &quot;${ProjName}&quot;">
+					<folderInfo id="com.elmomc.project.CppReleaseConfiguration.1505033925." name="/" resourcePath="">
+						<toolChain id="com.elmomc.project.CppElmoToolchainRelease.1887435329" name="GMAS C++ toolchain" superClass="com.elmomc.project.CppElmoToolchainRelease">
+							<targetPlatform id="com.elmomc.project.CppReleaseConfiguration.1505033925..1839721020" name=""/>
+							<builder buildPath="${workspace_loc:/CPP_Template/Release}" id="com.elmomc.project.CppBuilder.1859463684" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU Make" superClass="com.elmomc.project.CppBuilder"/>
+							<tool id="com.elmomc.project.CppCompiler.1999086258" name="GMAS PowerPC C++ compiler" superClass="com.elmomc.project.CppCompiler">
+								<inputType id="com.elmomc.project.CppSource.1132784718" name="C source files" superClass="com.elmomc.project.CppSource"/>
+							</tool>
+							<tool id="com.elmomc.project.CppLinker.751243737" name="GMAS PowerPC C++ linker" superClass="com.elmomc.project.CppLinker"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="scannerConfiguration">
+				<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="makefileGenerator">
+						<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="CPP_Template.com.elmomc.project.ElmoCppProject.1888605777" name="GMAS C++ project" projectType="com.elmomc.project.ElmoCppProject"/>
+	</storageModule>
+</cproject>
