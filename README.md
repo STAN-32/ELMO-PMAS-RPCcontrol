@@ -8,7 +8,7 @@ A simple project is built, which can be easily extended to your own project.
 
 # Using step
 
-Compile the whole project
+Compile the whole project via Cmake
 ```
 cmake .
 make -j4
